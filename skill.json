@@ -1,0 +1,27 @@
+{
+  "name": "genpark-inventory-demand-forecasting-engine-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - E-commerce inventory demand forecasting and reorder calculator.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "operations",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "sku": {
+      "type": "str"
+    },
+    "sales_history": {
+      "type": "list"
+    }
+  },
+  "outputs": {
+    "recommended_reorder": {
+      "type": "int"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
